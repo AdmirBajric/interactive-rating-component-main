@@ -27,14 +27,26 @@ body {
   background-color: var(--neutralVeryDarkBlue);
 }
 
-main {
+.attribution {
+  padding: 0.625rem;
+  margin-top: 3.125rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--neutralWhite);
+}
+
+.attribution a {
+  color: hsl(229, 27%, 74%);
+}
+
+#main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 21%;
-  height: 420px;
-  padding: 30px;
-  border-radius: 20px;
+  width: 25.5rem;
+  height: 26.25rem;
+  padding: 1.875rem;
+  border-radius: 1.25rem;
   background-color: var(--neutralDarkBlue);
 }
 
@@ -42,39 +54,39 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem;
+  height: 2.8125rem;
   background-color: var(--neutralLightGray);
   border-radius: 50%;
 }
 
 .circle-star img {
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem;
+  height: 0.9375rem;
 }
 
 .title {
   color: var(--neutralWhite);
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .text {
   font-size: var(--fontSizeParagraph);
   color: var(--neutralMediumGray);
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .ratingBtn {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   font-size: var(--fontSizeParagraph);
   font-weight: 700;
   border: none;
@@ -101,9 +113,9 @@ main {
 .submit {
   background-color: var(--primaryOrange);
   color: var(--neutralWhite);
-  padding: 13px;
+  padding: 0.8125rem;
   border: none;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   text-transform: uppercase;
   font-size: 1rem;
   cursor: pointer;
@@ -114,19 +126,42 @@ main {
   color: var(--primaryOrange);
 }
 
-.active {
+.btn-active {
   background-color: var(--neutralMediumGray);
   color: var(--neutralWhite);
 }
 
-.attribution {
-  padding: 0.625rem;
-  margin-top: 3.125rem;
-  font-size: 0.8rem;
-  text-align: center;
+#modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25.5rem;
+  height: 26.25rem;
+  padding: 1.875rem;
+  border-radius: 1.25rem;
+  background-color: var(--neutralDarkBlue);
+}
+
+#modal img {
+  width: 10.3125rem;
+  height: 6.875rem;
+}
+
+.modal-title {
   color: var(--neutralWhite);
 }
 
-.attribution a {
-  color: hsl(229, 27%, 74%);
+.modal-text {
+  text-align: center;
+  color: var(--neutralMediumGray);
+}
+
+.modal-selected {
+  font-size: 1rem;
+  color: var(--primaryOrange);
+  padding: 0.4375rem 0.9375rem 0.4375rem 0.9375rem;
+  background-color: var(--neutralLightGray);
+  border: none;
+  border-radius: 1.25rem;
 }

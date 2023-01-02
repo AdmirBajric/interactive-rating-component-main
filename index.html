@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Interactive ratingBtn component</title>
   </head>
   <body>
-    <main>
+    <main id="main">
       <div class="circle-star">
         <img src="./images/icon-star.svg" alt="Rating Star" />
       </div>
@@ -35,19 +35,18 @@
       <button class="submit">Submit</button>
     </main>
 
-    <!-- Thank you state start -->
-    <dialog>
+    <div id="modal">
       <img
         src="./images/illustration-thank-you.svg"
         alt="Thank you for Rating"
       />
-      <p class="selected-num">You selected out of 5</p>
-      <h2>Thank you!</h2>
-      <p>
-        We appreciate you taking the time to give a ratingBtn. If you ever need
+      <p class="modal-selected"></p>
+      <h2 class="modal-title">Thank you!</h2>
+      <p class="modal-text">
+        We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
-    </dialog>
+    </div>
 
     <div class="attribution">
       Challenge by
@@ -55,5 +54,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="https://github.com/AdmirBajric">Admir Bajric</a>.
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
