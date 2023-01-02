@@ -4,6 +4,6 @@
 
 ### https://www.frontendmentor.io/
 
-QR code component.
+Interactive Rating Component Main
 
 Technology used : HTML, CSS, Flexbox, Javascript
